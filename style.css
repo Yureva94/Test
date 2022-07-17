@@ -1,0 +1,46 @@
+body {
+    background-color: #eae0c5;
+    font-family: Arial;
+}
+
+#button, h1 {
+    padding-left: 39px;
+    font-weight: bold;
+}
+
+div input, li, #positive-result, #negative-result {
+    margin-top: 10px;
+    padding-left: 0;
+    list-style-position: inside;
+    margin-top: 10px;
+}
+
+#positive-result {
+    font-weight: bold;
+    color: green;
+}
+
+#negative-result {
+    font-weight: bold;
+    color: red;
+}
+
+button {
+    background-color: #419d17;
+    color: #000000;
+    border-color: #000000;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0 3px 5px #000c;
+}
+
+button:active {
+    background-color: #62c937;
+    color: #000000;
+    border-color: rgba(157, 157, 157, 0.8);
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0 3px 5px #000c;
+}
