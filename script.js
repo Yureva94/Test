@@ -5,27 +5,27 @@ button.addEventListener('click', checkTest);
 
 function checkTest() {
     let i = 0;
-    let q1 = document.getElementById("question1").value;
-    if (q1 === "4") {
+    let questionOne = document.getElementById("question1").value;
+    if (questionOne === "4") {
         i++
     }
-    let q2 = document.getElementById("question2").value;
-    if (q2 === "11") {
+    let questionTwo = document.getElementById("question2").value;
+    if (questionTwo === "11") {
         i++
     }
-    let q3 = document.getElementById("question3").value;
-    if (q3 === "10") {
+    let questionThree = document.getElementById("question3").value;
+    if (questionThree === "10") {
         i++
     }
-    let q4 = document.getElementById("question4").value;
-    if (q4 === "2") {
+    let questionFour = document.getElementById("question4").value;
+    if (questionFour === "2") {
         i++
     }
-    let q5 = document.getElementById("question5").value;
-    if (q5 === "1") {
+    let questionFive = document.getElementById("question5").value;
+    if (questionFive === "1") {
         i++
     }
-    if (q1 === '' || q2 === '' || q3 === '' || q4 === '' || q5 === '') {
+    if (questionOne === '' || questionTwo === '' || questionThree === '' || questionFour === '' || questionFive === '') {
         negativeDiv.innerHTML = `Ответьте пожалуйста на все вопросы`
         positiveDiv.innerHTML = ''
     } else if (i === 3 || i === 4) {
